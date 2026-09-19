@@ -21,7 +21,7 @@
         if (code) {
             navigator.clipboard.writeText(code);
             // deep link opening bot directly
-            document.getElementById('tg-btn').href = `https://t.me/@beat2vidbot?start=code_${encodeURIComponent(code)}`;
+            document.getElementById('tg-btn').href = `https://t.me/beat2vidbot?start=code_${encodeURIComponent(code)}`;
             document.getElementById('tg-btn').innerText = "open telegram (code copied)";
         }
     </script>
